@@ -1,0 +1,95 @@
+@import "reset.less";
+@import "variables.less";
+
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
+body {
+	font-family: 'Noto Sans', sans-serif;
+}
+
+#bg {
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+	filter: blur(5px);
+	//TODO make this keep its proportions
+}
+
+#mainCard {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 1;
+	
+	width: 340px;
+	height: 440px;
+	background: #colors.card[background];
+	border-radius: 20px;
+	box-sizing: border-box;
+	padding: 5px;
+	overflow: hidden;
+	
+	.content {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: stretch;
+		width: 100%;
+		
+		.avatar {
+			height: 128px;
+			width: 128px;
+			background: #colors.card.avatar[background];
+			border: 2px solid #colors.card.avatar[border];
+			border-radius: 100%;
+			margin: 5px;
+		}
+		
+		h2 {
+			font-size: 2em;
+			font-weight: bold;
+			color: #colors.card[name];
+		}
+		
+		strong {
+			font-weight: bold;
+			color: #colors.card[strong];
+		}
+		
+		.items {
+			text-align: center;
+		}
+	}
+	
+	.footer {
+		width: 100%;
+		text-align: center;
+		
+		.links {
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+			width: 100%;
+			
+			img {
+				height: 32px;
+				width: 32px;
+				border-radius: 100%;
+			}
+		}
+		
+		.readmore {
+			font-weight: bold;
+			color: #colors.card[strong];
+			cursor: pointer;
+		}
+	}
+}

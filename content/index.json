@@ -1,0 +1,26 @@
+{
+	"title": "Développeur / Weeb",
+	"items": [
+		"JavaScript full stack",
+		"Lua / MoonScript",
+		"Java",
+		"C",
+		"Python",
+		"HTML / CSS"
+	],
+	"readMoreText": "Lire plus...",
+	"links": [
+		{
+			"name": "LinkedIn",
+			"url": "https://www.linkedin.com/in/nathan-décher-a7a662173/"
+		},
+		{
+			"name": "GitHub",
+			"url": "https://github.com/natnat-mc"
+		},
+		{
+			"name": "GitLab",
+			"url": "https://gitlab.com/Codinget"
+		}
+	]
+}

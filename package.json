@@ -1,0 +1,23 @@
+{
+  "name": "cv",
+  "version": "1.0.0",
+  "description": "This repo hosts my Curriculum Vitae, visible on [codinget.me](https://codinget.me).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/natnat-mc/cv.git"
+  },
+  "author": "Nathan Décher",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/natnat-mc/cv/issues"
+  },
+  "homepage": "https://github.com/natnat-mc/cv#readme",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "less": "^3.9.0"
+  }
+}

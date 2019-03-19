@@ -1,0 +1,25 @@
+<section id="mainCard">
+	<div class="content">
+		<img src="/res/128x/avatar.png" alt="avatar" class="avatar" />
+		<h2>Nathan Décher</h2>
+		<strong><%= title %></strong>
+		<ul class="items">
+			<% for(let item of items) { %>
+				<li><%= item %></li>
+			<% } %>
+		</ul>
+	</div>
+	<div class="footer">
+		<ul class="links">
+			<% for(let link of links) { %>
+				<% let image=link.name.toLowerCase().replace(/[^a-z0-9._-]/g, '_'); %>
+				<li>
+					<a href="<%- link.url %>" title="<%- link.name %>">
+						<img src="/res/64x/<%- image %>.png" title="<%- link.name %>" />
+					</a>
+				</li>
+			<% } %>
+		</ul>
+		<span class="readmore"><%= readMoreText %></span>
+	</div>
+</section>

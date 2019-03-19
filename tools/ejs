@@ -1,0 +1,12 @@
+#!/usr/bin/env node
+(async () => {
+	const fs=require('fs');
+	const ejs=require('ejs');
+	
+	const template=process.argv[2];
+	const data=process.argv[3]!='-'?JSON.parse(fs.readFileSync(process.argv[3], 'utf8')):undefined;
+	const outfile=process.argv[4];
+	
+	const rendered=await ejs.renderFile(template, data);
+	fs.writeFileSync(outfile, rendered);
+})();
