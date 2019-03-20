@@ -19,7 +19,7 @@ This repo hosts my Curriculum Vitae, visible on [codinget.me](https://codinget.m
         - Discord
         - LinkedIn
 
-# Read more 
+### Read more 
 - Parcours
     - 2018 - Bac S SVT Spé Maths mention Très Bien- Lycée Notre Dame Ozanam Mâcon
     - 2018-2020 - DUT Informatique - IUT Lyon 1 La Doua
