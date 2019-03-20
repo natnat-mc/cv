@@ -23,6 +23,7 @@ IMAGES_SMALL = avatar linkedin github gitlab
 IMAGES_LARGE = bg
 VIEWS = index
 STYLES = main
+SCRIPTS = main
 
 #END object list
 
@@ -33,6 +34,7 @@ IMAGES_64x = $(foreach image, $(IMAGES_SMALL), out/res/64x/$(image).png)
 IMAGES_128x = $(foreach image, $(IMAGES_SMALL), out/res/128x/$(image).png)
 IMAGES_1920x = $(foreach image, $(IMAGES_LARGE), out/res/1920x/$(image).jpg)
 STYLES_RENDERED = $(foreach style, $(STYLES), out/res/$(style).css)
+SCRIPTS_COPIED = $(foreach script, $(SCRIPTS), out/res/$(script).js)
 
 LESS_FILES = $(wildcard less/*)
 VIEW_FILES = $(wildcard views/*)
@@ -40,7 +42,7 @@ VIEW_FILES = $(wildcard views/*)
 #END dynamic object list
 
 #BEGIN main rules
-all: views images styles
+all: views images styles scripts
 
 clean:
 	$(RM) out
@@ -79,4 +81,8 @@ styles: out/res $(STYLES_RENDERED)
 out/res/%.css: less/%.less $(LESS_FILES)
 	$(LESSC) $< $@
 
+# js copy
+scripts: out/res $(SCRIPTS_COPIED)
+out/res/%.js: js/%.js
+	$(CP) $< $@
 #END real rules

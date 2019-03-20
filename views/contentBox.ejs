@@ -1,0 +1,12 @@
+<main id="contentBox">
+	<% for(let section of sections) { %>
+		<section id="<%- section.name.toLowerCase() %>">
+			<h2><%- section.name %></h2>
+			<ul>
+				<% for(let item of section.items) { %>
+					<li><%- include('event.ejs', {data: item}) %></li>
+				<% } %>
+			</ul>
+		</section>
+	<% } %>
+</main>

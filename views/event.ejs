@@ -1,0 +1,7 @@
+<% if(typeof(data)=='string') { %>
+	<%= data %>
+<% } else { %>
+	<span class="year"><%= data.year %></span>
+	<span class="name"><%= data.name %></span>
+	<span class="info"><%= data.info %></span>
+<% } %>
