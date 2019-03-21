@@ -1,27 +1,27 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Nathan Décher - Présentation</title>
+		<title><%= owner.firstname %> <%= owner.lastname %></title>
 		
 		<link rel="stylesheet" href="/res/main.css" />
 		<script src="/res/main.js"></script>
 		
 		<meta charset="UTF-8" />
-		<meta property="og:title" content="Nathan Décher - Présentation" />
-		<meta property="og:url" content="https://codinget.me/" />
-		<meta property="og:image" content="https://codinget.me/res/128x/avatar.png" />
+		<meta property="og:title" content="<%= owner.firstname %> <%= owner.lastname %>" />
+		<meta property="og:url" content="<%= owner.url %>" />
+		<meta property="og:image" content="<%= owner.url %>/res/128x/avatar.png" />
 		<meta property="og:type" content="profile" />
-		<meta property="og:profile:first_name" content="Nathan" />
-		<meta property="og:profile:last_name" content="Décher" />
-		<meta property="og:profile:username" content="Codinget" />
-		<meta property="og:profile:gender" content="male" />
+		<meta property="og:profile:first_name" content="<%= owner.firstname %>" />
+		<meta property="og:profile:last_name" content="<%= owner.lastname %>" />
+		<meta property="og:profile:username" content="<%= owner.username %>" />
+		<meta property="og:profile:gender" content="<%= owner.gender %>" />
 	</head>
 	<body>
 		<div id="bg">
 			<img src="/res/1920x/bg.jpg" />
 		</div>
-		<% include mainCard.ejs %>
-		<% include contentBox.ejs %>
-		<% include credits.ejs %>
+		<%- include('mainCard.ejs', mainCard) %>
+		<%- include('contentBox.ejs', content) %>
+		<%- include('credits.ejs') %>
 	</body>
 </html>
