@@ -43,7 +43,7 @@ CONTENT_FILES = $(wildcard content/*)
 #END dynamic object list
 
 #BEGIN main rules
-all: views images styles scripts
+all: views images styles scripts favicon
 
 clean:
 	$(RM) out
@@ -86,4 +86,9 @@ out/res/%.css: less/%.less $(LESS_FILES)
 scripts: out/res $(SCRIPTS_COPIED)
 out/res/%.js: js/%.js
 	$(CP) $< $@
+
+# favicon
+favicon: out out/favicon.ico
+out/favicon.ico: assets/avatar.png
+	$(CONVERT) $< -resize '32x32!' $@
 #END real rules
