@@ -1,31 +1,34 @@
 #colors() {
 	text: black;
 	shadow: black;
+	black: #2a2a2a;
+	white: #fefefe;
+	accent: #004080;
 	
 	.modal() {
-		background: fade(#fefefe, 80%);
-		hide: #2a2a2a;
+		background: fade(#colors[white], 80%);
+		hide: #colors[black];
 	}
 	
 	.card() {
-		background: fade(#fefefe, 90%);
-		name: fade(#2a2a2a, 90%);
-		strong: mix(blue, green);
+		background: fade(#colors[white], 90%);
+		name: fade(#colors[black], 90%);
+		strong: #colors[accent];
 		
 		.avatar() {
-			border: mix(blue, green);
-			background: lighten(mix(blue, green), 50%);
+			border:#colors[accent];
+			background: lighten(#colors[accent], 50%);
 		}
 	}
 	
 	.content() {
-		name: fade(#2a2a2a, 90%);
-		strong: mix(blue, green);
+		name: fade(#colors[black], 90%);
+		strong: #colors[accent];
 	}
 	
 	.credits() {
-		open: fade(#fefefe, 90%);
-		name: fade(#2a2a2a, 90%);
-		url: mix(blue, green);
+		open: fade(#colors[white], 90%);
+		name: fade(#colors[black], 90%);
+		url: #colors[accent];
 	}
 }
