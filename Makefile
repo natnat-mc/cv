@@ -38,6 +38,7 @@ SCRIPTS_COPIED = $(foreach script, $(SCRIPTS), out/res/$(script).js)
 
 LESS_FILES = $(wildcard less/*)
 VIEW_FILES = $(wildcard views/*)
+CONTENT_FILES = $(wildcard content/*)
 
 #END dynamic object list
 
@@ -64,7 +65,7 @@ out/res/1920x: out/res
 
 # view rendering
 views: out $(VIEWS_RENDERED)
-out/%.html: views/%.ejs content/%.json $(VIEW_FILES)
+out/%.html: views/%.ejs $(CONTENT_FILES) $(VIEW_FILES)
 	$(EJS) $< $(patsubst out/%.html, content/%.json, $@) $@
 
 # image resizing

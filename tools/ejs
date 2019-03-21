@@ -7,6 +7,6 @@
 	const data=process.argv[3]!='-'?JSON.parse(fs.readFileSync(process.argv[3], 'utf8')):undefined;
 	const outfile=process.argv[4];
 	
-	const rendered=await ejs.renderFile(template, data);
+	const rendered=await ejs.renderFile(template, Object.assign({fs}, data));
 	fs.writeFileSync(outfile, rendered);
 })();

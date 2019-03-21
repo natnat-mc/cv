@@ -1,0 +1,39 @@
+.modal {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: block;
+	opacity: 0;
+	pointer-events: none;
+	transition: opacity .2s;
+	z-index: 1;
+	
+	&.active {
+		opacity: 1;
+		pointer-events: inherit;
+		
+		.content {
+			top: 10%;
+		}
+	}
+	
+	.exit {
+		height: 100%;
+		background: #colors.modal[hide];
+		opacity: .8;
+	}
+	
+	.content {
+		position: absolute;
+		background: #colors.modal[background];
+		box-sizing: border-box;
+		height: 90%;
+		width: 100%;
+		padding: 10px;
+		top: 100%;
+		transition: top .2s;
+		box-shadow: #colors[shadow] 0 0 10px;
+	}
+}

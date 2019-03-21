@@ -1,0 +1,24 @@
+<span id="creditsLink">Credits</span>
+<div id="creditsWrapper" class="modal">
+	<div class="exit"></div>
+	<section id="credits" class="content">
+		<% const credits=JSON.parse(fs.readFileSync('content/credits.json')); %>
+		<% for(let type in credits) { %>
+			<% let object=credits[type]; %>
+			<section>
+				<h2><%= type %></h1>
+				<% if(object.artist) { %>
+					<span class="artist"><%= object.artist %></span>
+				<% } else { %>
+					<span class="author"><%= object.author %></span>
+				<% } %>
+				<% if(object.url) { %>
+					<a href="<%= object.url %>"><%= object.url.replace(/^https?:\/\//, '') %></a>
+				<% } %>
+				<% if(object.character) { %>
+					<span class="character"><%= object.character %></span>
+				<% } %>
+			</section>
+		<% } %>
+	</section>
+</div>
