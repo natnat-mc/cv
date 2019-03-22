@@ -21,8 +21,8 @@ EJS = ./tools/ejs
 
 IMAGES_SMALL = avatar linkedin github gitlab
 IMAGES_LARGE = bg
-VIEWS = index
-STYLES = main
+VIEWS = index 404 403
+STYLES = main error
 SCRIPTS = main
 
 #END object list
