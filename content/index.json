@@ -4,10 +4,10 @@
 		"lastname": "Décher",
 		"username": "Codinget",
 		"gender": "male",
-		"url": "https://codinget.me"
+		"url": "https://codinget.me",
+		"title": "Développeur / Weeb"
 	},
 	"mainCard": {
-		"title": "Développeur / Weeb",
 		"items": [
 			"JavaScript full stack",
 			"Lua / MoonScript",
