@@ -80,5 +80,20 @@
 				]
 			}
 		]
+	},
+	"credits": {
+		"Background": {
+			"artist": "sazanami shione",
+			"character": "kirisame Marisa (Touhou Project)",
+			"url": "https://yande.re/post/show/225473"
+		},
+		"Avatar": {
+			"artist": "unknown",
+			"character": "Izumi Konata (Lucky Star)"
+		},
+		"Code": {
+			"author": "Nathan Décher",
+			"url": "https://github.com/natnat-mc/cv"
+		}
 	}
 }
