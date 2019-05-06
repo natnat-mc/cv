@@ -35,6 +35,14 @@
 	"content": {
 		"sections": [
 			{
+				"name": "Qui suis-je?",
+				"items": [
+					"Un étudiant en DUT Informatique",
+					"Un passionné d'informatique",
+					"Un weeb"
+				]
+			},
+			{
 				"name": "Parcours",
 				"items": [
 					{
