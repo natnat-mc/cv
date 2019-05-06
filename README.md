@@ -2,30 +2,29 @@
 This repo hosts my Curriculum Vitae, visible on [codinget.me](https://codinget.me).
 
 ## Layout
+- Front page
+	- card
+	- name
+	- title
+	- programming languages
+	- social / professional links
+- read more
+	- projects
+- credits
+	- background image
+	- profile image
+	- repo
 
-### Front page
-- Nathan DÉCHER
-    - Développeur / Weeb
-    - Langages
-        - JS (full stack)
-        - Java
-        - Lua / Moonscript
-        - C
-        - Python
-        - HTML / CSS
-    - Liens
-        - GitHub
-        - GitLab
-        - Discord
-        - LinkedIn
+## How To
+- Content  
+  All the textual content is stored in JSON files in the `content` folder.
+- Images  
+  All the images are stored in the `assets` folder. They are automatically scaled at build time.
+- Styles  
+  The stylesheets are stored in the `less` folder, and are written in the [`less` language](http://lesscss.org).
+- Building  
+  To build the website, first install the dependencies with `npm i`, then simply run `make`. You need to have `imagemagick` installed and in your path.
 
-### Read more 
-- Parcours
-    - 2018 - Bac S SVT Spé Maths mention Très Bien- Lycée Notre Dame Ozanam Mâcon
-    - 2018-2020 - DUT Informatique - IUT Lyon 1 La Doua
-- Projets
-    - 2018 - Moteur de templates HTML - projet perso Lua
-    - 2018 - Site web marchand statique - projet DUT HTML/LESS
-    - 2018-en cours - Bot Discord utilitaire pour les promos 2018 et suivantes d'Informatique de l'IUT Lyon 1 La Doua - projet perso NodeJS+Discord.js
-    - 2018-en cours - Boite à outils pour développer - projet perso Lua
-    - 2019-2020 - IA sur jeu - projet tutoré DUT Python/TensorFlow
+## Usage and modification
+This repo is under the AGPL V3 Licence, which means that you can edit this and redistribute it, but you must publish your sources.
+Crediting me is not required, but keeping the fork relationship would be appreciated.
