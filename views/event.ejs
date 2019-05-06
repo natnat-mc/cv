@@ -2,6 +2,12 @@
 	<%= data %>
 <% } else { %>
 	<span class="year"><%= data.year %></span>
+	<% if(data.url) { %>
+		<a href="<%= data.url %>">
+	<% } %>
 	<span class="name"><%= data.name %></span>
+	<% if(data.url) { %>
+		</a>
+	<% } %>
 	<span class="info"><%= data.info %></span>
 <% } %>

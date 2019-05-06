@@ -63,27 +63,32 @@
 					{
 						"year": 2018,
 						"name": "Moteur de templates HTML",
-						"info": "projet perso Lua"
+						"info": "projet perso Lua",
+						"url": "https://github.com/natnat-mc/luatpl"
 					},
 					{
 						"year": 2018,
 						"name": "Site web marchand statique",
-						"info": "projet DUT HTML/LESS"
+						"info": "projet DUT HTML/LESS",
+						"url": "https://forge.univ-lyon1.fr/Montecher/WebS1"
 					},
 					{
 						"year": "2018-en cours",
 						"name": "Bot Discord utilitaire pour les promos 2018 et suivantes d'Informatique de l'IUT Lyon 1 La Doua",
-						"info": "projet perso NodeJS+Discord.js"
+						"info": "projet perso NodeJS+Discord.js",
+						"url": "https://github.com/natnat-mc/bot-info"
 					},
 					{
 						"year": "2018-en cours",
 						"name": "Boite à outils pour développeur",
-						"info": "projet perso Lua"
+						"info": "projet perso Lua",
+						"url": "https://github.com/natnat-mc/toolbox"
 					},
 					{
 						"year": "2019-2020",
 						"name": "IA sur jeu",
-						"info": "projet tutoré DUT Python/TensorFlow"
+						"info": "projet tutoré DUT Python/TensorFlow",
+						"url": "https://github.com/ptut-morpx"
 					}
 				]
 			}

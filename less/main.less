@@ -128,16 +128,28 @@ body {
 				.year {
 					font-weight: bold;
 					color: #colors.content[strong];
-				}
-				
-				.name {
-					font-weight: bold;
 					
-					&::after, &::before {
+					&::after {
 						content: ' - ';
 						color: inherit;
 						font-weight: normal;
 					}
+				}
+				
+				.info {
+					&::before {
+						content: ' - ';
+						color: inherit;
+						font-weight: normal;
+					}
+				}
+				
+				.name {
+					font-weight: bold;
+				}
+				
+				a:hover .name {
+					color: #colors.content[hover];
 				}
 			}
 		}
@@ -173,6 +185,10 @@ body {
 		a {
 			font-weight: bold;
 			color: #colors.credits[url];
+			
+			&:hover {
+				color: #colors.credits[hover];
+			}
 		}
 		
 		.author, .artist {
