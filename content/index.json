@@ -46,6 +46,16 @@
 				"name": "Parcours",
 				"items": [
 					{
+						"year": 2017,
+						"name": "TOEIC 940/990",
+						"info": "ETS Global France"
+					},
+					{
+						"year": 2018,
+						"name": "IELTS Listening: 8.0, Reading: 9.0, Writing: 6.5, Speaking: 6.0; Overall: 7.5, Level: C1",
+						"info": "British Council"
+					},
+					{
 						"year": 2018,
 						"name": "Bac S SVT Spé Maths mention Très Bien",
 						"info": "Lycée Notre Dame Ozanam Mâcon"
