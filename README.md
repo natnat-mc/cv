@@ -20,14 +20,7 @@ The original version is hosted on [GitHub](https://github.com/natnat-mc/personal
 	- repo
 
 ## How To
-- Content  
-  All the textual content is stored in JSON files in the `content` folder.
-- Images  
-  All the images are stored in the `assets` folder. They are automatically scaled at build time.
-- Styles  
-  The stylesheets are stored in the `less` folder, and are written in the [`less` language](http://lesscss.org).
-- Building  
-  To build the website, first install the dependencies with `npm i`, then simply run `make`. You need to have `imagemagick` installed and in your path.
+Information on how to use and customize this can be found in [HOWTO.md](`HOWTO.md`)
 
 ## Usage and modification
 This repo is under the AGPL V3 Licence, which means that you can edit this and redistribute it, but you must publish your sources.
