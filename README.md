@@ -2,6 +2,8 @@
 This repo hosts my personal website, visible on [codinget.me](https://codinget.me).  
 It is meant to be editable easily by changing a few variables, images and JSON files.
 
+The original version is hosted on [GitHub](https://github.com/natnat-mc/personal-website) and it is mirorred on [GitLab](https://gitlab.com/Codinget/personal-website).
+
 ## Layout
 - Front page
 	- card
