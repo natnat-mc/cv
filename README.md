@@ -1,5 +1,6 @@
-# My CV
-This repo hosts my Curriculum Vitae, visible on [codinget.me](https://codinget.me).
+# My personal website
+This repo hosts my personal website, visible on [codinget.me](https://codinget.me).  
+It is meant to be editable easily by changing a few variables, images and JSON files.
 
 ## Layout
 - Front page
@@ -9,6 +10,7 @@ This repo hosts my Curriculum Vitae, visible on [codinget.me](https://codinget.m
 	- programming languages
 	- social / professional links
 - read more
+	- who am I
 	- projects
 - credits
 	- background image
@@ -27,4 +29,3 @@ This repo hosts my Curriculum Vitae, visible on [codinget.me](https://codinget.m
 
 ## Usage and modification
 This repo is under the AGPL V3 Licence, which means that you can edit this and redistribute it, but you must publish your sources.
-Crediting me is not required, but keeping the fork relationship would be appreciated.
