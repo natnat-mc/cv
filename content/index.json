@@ -98,8 +98,14 @@
 					{
 						"year": "2019-2020",
 						"name": "IA sur jeu",
-						"info": "projet tutoré DUT Python/TensorFlow",
+						"info": "projet tuteuré DUT Python/neat-python",
 						"url": "https://github.com/ptut-morpx"
+					},
+					{
+						"year": "2020-en cours",
+						"name": "Outil de contenairisation",
+						"info": "projet perso MoonScript avec systemd-nspawn",
+						"url": "https://github.com/natnat-mc/container"
 					}
 				]
 			}
