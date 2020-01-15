@@ -1,6 +1,6 @@
 <section id="mainCard">
 	<div class="content">
-		<img src="/res/128x/avatar.png" alt="avatar" class="avatar" />
+		<img src="res/128x/avatar.png" alt="avatar" class="avatar" />
 		<h2><%= owner.firstname %> <%= owner.lastname %></h2>
 		<strong><%= owner.title %></strong>
 		<ul class="items">
@@ -15,7 +15,7 @@
 				<% let image=link.name.toLowerCase().replace(/[^a-z0-9._-]/g, '_'); %>
 				<li>
 					<a href="<%- link.url %>" title="<%- link.name %>">
-						<img src="/res/64x/<%- image %>.png" title="<%- link.name %>" />
+						<img src="res/64x/<%- image %>.png" title="<%- link.name %>" />
 					</a>
 				</li>
 			<% } %>
