@@ -37,7 +37,7 @@
 			{
 				"name": "Qui suis-je?",
 				"items": [
-					"Un étudiant en DUT Informatique",
+					"Un étudiant en L3 Informatique",
 					"Un passionné d'informatique",
 					"Un fan de Tetris et Touhou",
 					"Un weeb"
@@ -70,6 +70,11 @@
 						"year": 2020,
 						"name": "TOEIC 985/990",
 						"info": "ETS Global France"
+					},
+					{
+						"year": "2020-2021",
+						"name": "Licence 3 Informatique",
+						"info": "Université Lyon 1"
 					}
 				]
 			},
@@ -77,25 +82,13 @@
 				"name": "Projets",
 				"items": [
 					{
-						"year": 2018,
-						"name": "Moteur de templates HTML",
-						"info": "projet perso Lua",
-						"url": "https://github.com/natnat-mc/luatpl"
-					},
-					{
-						"year": 2018,
-						"name": "Site web marchand statique",
-						"info": "projet DUT HTML/LESS",
-						"url": "https://forge.univ-lyon1.fr/Montecher/WebS1"
-					},
-					{
 						"year": "2018-en cours",
 						"name": "Bot Discord utilitaire pour les promos 2018 et suivantes d'Informatique de l'IUT Lyon 1 La Doua",
 						"info": "projet perso NodeJS+Discord.js",
 						"url": "https://github.com/natnat-mc/bot-info"
 					},
 					{
-						"year": "2018-en cours",
+						"year": "2018-2020",
 						"name": "Boite à outils pour développeur",
 						"info": "projet perso Lua",
 						"url": "https://github.com/natnat-mc/toolbox"
@@ -111,6 +104,12 @@
 						"name": "Outil de contenairisation",
 						"info": "projet perso MoonScript avec systemd-nspawn",
 						"url": "https://github.com/natnat-mc/container"
+					},
+					{
+						"year": "2020-en cours",
+						"name": "Système de build",
+						"info": "projet perso similaire à make, écrit et utilisé en MoonScript",
+						"url": "https://github.com/natnat-mc/moonbuild"
 					}
 				]
 			}
@@ -124,7 +123,7 @@
 		},
 		"Avatar": {
 			"artist": "unknown",
-			"character": "Izumi Konata (Lucky Star)"
+			"character": "Ferris Argyle (Re:Zero)"
 		},
 		"Code": {
 			"author": "Nathan Décher",
