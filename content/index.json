@@ -106,6 +106,12 @@
 						"url": "https://github.com/natnat-mc/container"
 					},
 					{
+						"year": "2020-2021",
+						"name": "Moteur de rendu 3D en ray marching",
+						"info": "projet en binôme en C++/QT, utilise SDF, illumination globale et simulation spectrale",
+						"url": "https://github.com/Montecher/raytrace"
+					},
+					{
 						"year": "2020-en cours",
 						"name": "Système de build",
 						"info": "projet perso similaire à make, écrit et utilisé en MoonScript",
